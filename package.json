@@ -6,9 +6,9 @@
   "types": "src/index.d.ts",
   "react-native": "src/index",
   "source": "src/index",
-  "repository": "https://github.com/arthenica/ffmpeg-kit",
+  "repository": "https://github.com/hooper-ai/ffmpeg-kit-react-native",
   "author": "HOOPER <team@hooper.gg> (https://www.hooper.gg)",
-  "homepage": "https://github.com/arthenica/ffmpeg-kit",
+  "homepage": "https://github.com/hooper-ai/ffmpeg-kit-react-native",
   "scripts": {
     "test": "jest",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
