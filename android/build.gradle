@@ -30,47 +30,6 @@ android {
     namespace 'com.hooper.ffmpegkit.reactnative'
   }
 
-  packagingOptions {
-    pickFirst 'lib/arm64-v8a/libavcodec.so'
-    pickFirst 'lib/arm64-v8a/libavdevice.so'
-    pickFirst 'lib/arm64-v8a/libavfilter.so'
-    pickFirst 'lib/arm64-v8a/libavformat.so'
-    pickFirst 'lib/arm64-v8a/libavutil.so'
-    pickFirst 'lib/arm64-v8a/libswresample.so'
-    pickFirst 'lib/arm64-v8a/libswscale.so'
-    pickFirst 'lib/arm64-v8a/libffmpeg.so'
-
-    // If you're supporting 32-bit ARM
-    pickFirst 'lib/armeabi-v7a/libavcodec.so'
-    pickFirst 'lib/armeabi-v7a/libavdevice.so'
-    pickFirst 'lib/armeabi-v7a/libavfilter.so'
-    pickFirst 'lib/armeabi-v7a/libavformat.so'
-    pickFirst 'lib/armeabi-v7a/libavutil.so'
-    pickFirst 'lib/armeabi-v7a/libswresample.so'
-    pickFirst 'lib/armeabi-v7a/libswscale.so'
-    pickFirst 'lib/armeabi-v7a/libffmpeg.so'
-
-    // If you're supporting x86
-    pickFirst 'lib/x86/libavcodec.so'
-    pickFirst 'lib/x86/libavdevice.so'
-    pickFirst 'lib/x86/libavfilter.so'
-    pickFirst 'lib/x86/libavformat.so'
-    pickFirst 'lib/x86/libavutil.so'
-    pickFirst 'lib/x86/libswresample.so'
-    pickFirst 'lib/x86/libswscale.so'
-    pickFirst 'lib/x86/libffmpeg.so'
-
-    // If you're supporting x86_64
-    pickFirst 'lib/x86_64/libavcodec.so'
-    pickFirst 'lib/x86_64/libavdevice.so'
-    pickFirst 'lib/x86_64/libavfilter.so'
-    pickFirst 'lib/x86_64/libavformat.so'
-    pickFirst 'lib/x86_64/libavutil.so'
-    pickFirst 'lib/x86_64/libswresample.so'
-    pickFirst 'lib/x86_64/libswscale.so'
-    pickFirst 'lib/x86_64/libffmpeg.so'
-  }
-
   compileSdkVersion 33
 
   defaultConfig {
