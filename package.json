@@ -1,6 +1,6 @@
 {
   "name": "@hooper-ai/ffmpeg-kit-react-native",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Private clone of FFmpeg Kit for React Native",
   "main": "src/index",
   "types": "src/index.d.ts",
