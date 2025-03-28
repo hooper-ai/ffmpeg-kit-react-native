@@ -19,7 +19,7 @@
 
 package com.hooper.ffmpegkit;
 
-import com.hooper.smartexception.java.Exceptions;
+import com.arthenica.smartexception.java.Exceptions;
 
 /**
  * <p>Executes a MediaInformation session asynchronously.
