@@ -125,4 +125,5 @@ repositories {
 
 dependencies {
   api 'com.facebook.react:react-native:+'
+  implementation 'com.arthenica:smart-exception-java:0.2.1'
 }
